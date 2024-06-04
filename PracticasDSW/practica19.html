@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 19</title>
+    <script>
+        function ejecutarEjercicio() {
+            var valores = [true, 10, false, "codigo", "herramientas", 7];
+
+            // Determinar cuál de los dos elementos de texto es mayor
+            var textoMayor = valores[3] > valores[4] ? valores[3] : valores[4];
+            alert("El texto mayor es: " + textoMayor);
+
+            // Obtener un resultado true y otro false utilizando los valores booleanos
+            alert("Resultado true: " + (valores[0] || valores[2]));
+            alert("Resultado false: " + (valores[0] && valores[2]));
+
+            // Determinar el resultado de las cinco operaciones matemáticas
+            var num1 = valores[1];
+            var num2 = valores[5];
+
+            alert("Suma: " + (num1 + num2) + 
+                  "\nResta: " + (num1 - num2) + 
+                  "\nMultiplicación: " + (num1 * num2) + 
+                  "\nDivisión: " + (num1 / num2) + 
+                  "\nMódulo: " + (num1 % num2));
+        }
+    </script>
+</head>
+<body>
+    <h1>Ejercicio 19</h1>
+    <button onclick="ejecutarEjercicio()">Ejecutar Ejercicio</button>
+</body>
+</html>

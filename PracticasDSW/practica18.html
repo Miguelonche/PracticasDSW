@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Días de la Semana</title>
+    <script>
+        function capturarDias() {
+            // Crear un arreglo vacío
+            var dias = [];
+
+            // Capturar los días de la semana
+            for (var i = 1; i <= 7; i++) {
+                var dia = prompt("Ingrese el día " + i + " de la semana:");
+                dias.push(dia);
+            }
+
+            // Desplegar los días capturados en un alert
+            alert("Los días de la semana capturados son: " + dias.join(", "));
+        }
+    </script>
+</head>
+<body>
+    <h1>Capturar Días de la Semana</h1>
+    <button onclick="capturarDias()">Capturar Días</button>
+</body>
+</html>

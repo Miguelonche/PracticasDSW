@@ -1,0 +1,88 @@
+/*
+-Barrios Zaragoza Miguel Antonio 
+- Respetar la estructura básica de html
+- El head debe contener de título “ Examen 1”
+- header, nav y footer deben medir 70% de ancho y 50px de alto.
+- Div: 70% ancho, 350px de alto
+- Section: 65% ancho, 350px de alto
+- Aside: 30% de ancho, 350px de alto
+- Article: 90% de ancho, 350px de alto
+- Haga uso de etiquetas para efectuar los márgenes
+- Agregar su nombre completo en un comentario en el archivo html
+- Se deberá ver igual a la siguiente imagen:
+*/
+
+
+/*Bordes circulares*/
+*{
+    border-radius: 10px;
+    text-align: center
+}
+
+/* header, nav y footer deben medir 70% de ancho y 50px de alto.*/
+
+header{
+    background-color:rgb(140, 128, 131);  /*color*/
+    width: 70%;
+    height: 50px;
+}
+
+
+nav{
+    background-color:rgb(140, 128, 131); ; /*color*/
+    width: 70%;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+footer{
+    background-color:rgb(140, 128, 131); ; /*color*/
+    width: 70%;
+    height: 50px;
+}
+
+
+/* Div: 70% ancho, 350px de alto*/
+#contenedor{
+    width: 70%;
+    height: 350px;
+    display: flex; justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Section: 65% ancho, 350px de alto*/
+section{
+    width: 65%;
+    height: 350px;
+    margin: 10px;
+    background-color:rgb(140, 128, 131); /*color*/
+}
+
+/* Aside: 30% de ancho, 350px de alto*/
+#subcontenedor{
+    display: flex; justify-content: space-around;
+    width: 30%;
+    height: 350px;
+    
+}
+
+aside{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    background-color:rgb(140, 128, 131); /*color*/
+}
+
+
+/*Article: 90% de ancho, 350px de alto(75px para que se ajustara) */
+article{
+    
+    background-color: lightgray; /*color*/
+    margin-top: 30px; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    height: 75px; 
+    width: 90%; 
+   
+}
